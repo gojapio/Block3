@@ -1,0 +1,125 @@
+
+body {
+	background-image : url("https://s-media-cache-ak0.pinimg.com/736x/01/0d/3b/010d3b62707df9695e8de18a9554464e.jpg");
+	background-size: 30%;
+	background-attachment : fixed;
+	background-repeat: no-repeat;
+	font-family : Times New Roman, Geneva, sans-serif;
+	}
+	
+#wrapper {
+	width : 65%;
+	float : right;
+	margin : 10px;
+}
+
+#header {
+	background-color : #71D1E0;
+	height : 240px;
+	border-bottom : 3px solid #00394d;
+	border-radius: 5px;
+}
+
+#header img {
+	float : right;
+	margin : 25px;
+	}
+	
+#menu_line {
+	background-color : #004d66;
+	height : 60px;
+	border-radius : 5px;
+	box-shadow : 1px 5px 10px #71D1E0;
+	}
+	
+#menu_line ul  li  {
+	list-style-type: none;
+	}
+
+#menu_line ul li a {
+	text-decoration: none;
+	float : left;
+	width : 180px;
+	height : 30px;
+	line-height : 30px;
+	margin : 10px;
+	text-align : center;
+	font-weight : bold;
+	font-family : Geneva;
+	font-size : 20px;
+	color : white;
+	border: 1px solid #00394d;
+	border-radius : 5px;
+	background : linear-gradient(to bottom, #71D1E0, #EDF5F6);
+	}
+		
+#menu_line ul li a:link {
+	color : #00394d;
+	}	
+#menu_line ul li a:hover {
+	color : white;
+	background : linear-gradient(to bottom, #EDF5F6, #71D1E0)
+	}	
+	
+#menu_line ul li a.current, #menu_line ul li a.current:hover {
+	color : #a3297a;
+	background : linear-gradient(to bottom, #EDF5F6, #71D1E0);
+	}	
+	
+#content  {
+	background-color : #d6e0f5;
+	margin-top : 20px;
+	margin-bottom : 20px;
+	padding : 20px;
+	}
+
+.maincontent {
+	background-color : #EDF5F6;
+	border-radius : 5px;
+	border : 2px solid #00394d;
+	margin : 20px;
+	box-shadow : 1px 5px 10px #71D1E0;
+}
+
+.maincontent img {
+	float : left;
+	margin : 10px;
+	border-radius : 5px;
+	border: 1px solid #00394d;
+	}
+
+h4 {
+	text-align : center;
+	color :#a3297a;
+	margin-top: 10px;
+}
+
+.maincontent p {
+	font-size : 0.9em;
+	color : #1f3d7a;
+	padding : 5px;
+}
+
+.top a {		
+color : #2F4F4F;
+text-decoration : none;
+margin : 10px;
+}
+
+#footer {
+	clear: both;
+	padding: 20px;
+	border-radius : 5px;
+	background-color : #004d66;
+	color : white;
+	font-weight : bold;
+}
+
+#footer a {
+	text-decoration : none;
+	color : white;
+	font-weight : bold;
+	font-size: 20px;
+	float : right;
+}
+	
