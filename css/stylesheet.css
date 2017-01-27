@@ -43,6 +43,7 @@ body {
 
 #menu_line ul li a {
 	text-decoration: none;
+	width : 85%;
 	float : left;
 	line-height : 30px;
 	margin : 10px;
