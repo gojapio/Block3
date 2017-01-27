@@ -37,7 +37,7 @@ body {
 #menu_line ul  li  {
 	list-style-type: none;
 	display : inline-block;
-	margin : 5px auto;
+	margin : 20px auto;
 	min-width : 100px;
 	}
 
@@ -45,6 +45,7 @@ body {
 	text-decoration: none;
 	float : left;
 	line-height : 30px;
+	padding : 10px;
 	margin : 20px;
 	text-align : center;
 	font-weight : bold;
